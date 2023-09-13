@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñador Freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Adolfo Lamas <span>Freelancer</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre Mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+    <section>
+        <h2>Contacto</h2>
+
+        <form class="formulario">
+            <fieldset>
+                <legend>Contactános llenando todos los campos</legend>
+        
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu Nombre">
+                    </div>
+        
+                    <div class="campo">
+                        <label for="country">Ciudad:</label>
+                        <select id="Ciudad" name="Ciudad">
+                            <option selected>Seleccione una ciudad...</option>
+                            <option value="usa">Guadalajara</option>
+                            <option value="canada">Zapopan</option>
+                            <option value="uk">Tonala</option>
+                            <option value="australia">Tlaquepaque</option>
+                            <option value="japan">Otro</option>
+                        </select>
+                        <br><br>
+                    </div>
+        
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Tu Email">
+                    </div>
+
+                    <div class="campo">                    
+                        <label>Genero</label><br>
+                        <label>
+                            <input type="radio" name="gender" value="male">
+                            Male
+                        </label><br>
+                        
+                        <label>
+                            <input type="radio" name="gender" value="female">
+                            Female
+                        </label><br>
+                        
+                        <label>
+                            <input type="radio" name="gender" value="other">
+                            Other
+                        </label><br>
+                    </div>
+
+            
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                </div> <!-- .contenedor-campos -->
+        
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+
+    </section>
+    <footer class="footer">
+        <p>Programación Para Internet, UDG, CUCEI. - Adolfo Lamas Freelancer.</p>
+    </footer>
+</body>
+</html>
